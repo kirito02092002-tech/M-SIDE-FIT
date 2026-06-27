@@ -1,0 +1,26 @@
+.logo {
+  display: inline-flex;
+  align-items: center;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.02);
+}
+
+.logo__image {
+  height: auto;
+  object-fit: contain;
+}
+
+.logo--md .logo__image {
+  width: 120px;
+}
+
+.logo--lg .logo__image {
+  width: 160px;
+}
+
+.logo--sm .logo__image {
+  width: 90px;
+}
